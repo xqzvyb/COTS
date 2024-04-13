@@ -21,6 +21,7 @@ functional and interactive Project.
 
 
 Notes about the layered architecture:
+
 1-The function calling direction is always from top to bottom and is also recommended to be one layer deep. Meaning that for Instance no function in the
 MCAL layer is allowed to be called in the APP layer. Similarly any function in the HAL must not be called in any driver that`s in the MCAL layer.
 
