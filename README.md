@@ -23,13 +23,13 @@ Notes about the layered architecture:
 MCAL layer is allowed to be called in the APP layer. Similarly any function in the HAL must not be called in any driver that`s in the MCAL layer.
 
 2-It is not allowed to call a function that belongs to the same layer if it is in a different SW component(driver). For Example of a function in the
-DIO driver it is not alloewed to call it in the ADC driver and so on.
+DIO driver it is not allowed to call it in the ADC driver and so on.
 
-3-The Horizontal layers can be called in any of the vertiacal layers.
+3-The Horizontal layers can be called in any of the vertical layers.
 
 4-In the provided driver there is only one horizonal layer and it is called LIB. This stands for library. It contains two header files only.
 _____________________________________________________________________________________________________________________________________________
 -This is version 1.0 of the driver.
 -This version is still in the development phase.
 -This version is not yet compele and so far it lacks some of essential drivers.
--Inside the COTS folder there is more details about each and ecery component.
+-Inside the COTS folder there is more details about each and every component.
