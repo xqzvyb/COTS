@@ -12,3 +12,6 @@ Configuration types:
 				   
 Pre-Build configuration is used usually to save memory. If the different variables in the S.W component can be 
 known before the run time then any other possiblities can be an unnecessary memory that won`t be used by any chamce.
+
+In this driver the Pre and the Post build configurations were used each where necessary for the sake of practice!
+The Linker time configuration was not used in this frame.
